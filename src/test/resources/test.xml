@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref name="message" type="message.sender">
+    <p id="1" name="BeginString" val="${BeginString}"/>
+    <p id="36" name="Message" val="${Message}"/>
+    <p id="42" name="Sender" val="${Sender}"/>
+    <p id="73" name="SendingTime" val="${SendingTime}"/>
+    <p id="1134" name="Target" val="${Target}"/>
+</ref>
