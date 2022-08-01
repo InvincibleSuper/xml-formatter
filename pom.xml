@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gitee.jwds</groupId>
+    <groupId>com.gitee.jwds666</groupId>
     <artifactId>xml-formatter</artifactId>
     <version>1.0</version>
 
@@ -42,7 +42,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <!--添加项目中主类-->
-                            <mainClass>com.gitee.jwds.xf.Main</mainClass>
+                            <mainClass>com.gitee.jwds666.xf.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
