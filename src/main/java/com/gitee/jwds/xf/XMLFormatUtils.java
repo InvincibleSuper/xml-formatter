@@ -1,10 +1,9 @@
-package com.github.xf;
+package com.gitee.jwds.xf;
 
 import org.dom4j.Attribute;
 import org.dom4j.Element;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;

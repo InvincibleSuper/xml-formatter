@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.xf</groupId>
+    <groupId>com.gitee.jwds</groupId>
     <artifactId>xml-formatter</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -42,7 +42,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <!--添加项目中主类-->
-                            <mainClass>com.github.xf.Main</mainClass>
+                            <mainClass>com.gitee.jwds.xf.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

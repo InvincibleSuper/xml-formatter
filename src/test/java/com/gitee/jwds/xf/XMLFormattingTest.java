@@ -1,6 +1,5 @@
-package com.github.xf;
+package com.gitee.jwds.xf;
 
-import com.sun.org.apache.xpath.internal.operations.String;
 import org.dom4j.DocumentException;
 import org.junit.Test;
 

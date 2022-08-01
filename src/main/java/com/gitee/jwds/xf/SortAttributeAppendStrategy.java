@@ -1,10 +1,9 @@
-package com.github.xf;
+package com.gitee.jwds.xf;
 
 import org.dom4j.Attribute;
 import org.dom4j.Namespace;
 
 import java.io.IOException;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
