@@ -8,7 +8,15 @@ import java.util.*;
 
 public class DefaultXMLFormatter implements XMLFormatter{
 
-
+    /**
+     * 格式化至输出流
+     * @param os 输出流
+     * @param xml xml源文件的输入流
+     * @param formatOption 格式化选项
+     * @return 格式化的上下文
+     * @throws IOException IOException
+     * @throws DocumentException DocumentException
+     */
     @Override
     public FormatContext formattingWriteStream(OutputStream os, InputStream xml, FormatOption formatOption) throws IOException, DocumentException {
         SAXReader reader = new SAXReader();
@@ -22,6 +30,44 @@ public class DefaultXMLFormatter implements XMLFormatter{
         return context;
     }
 
+
+    /**
+     * 格式化至输出流
+     *
+     * @param os  输出流
+     * @param xml xml源文件的输入流
+     * @return 格式化的上下文
+     * @throws IOException IOException
+     * @throws DocumentException DocumentException
+     */
+    @Override
+    public FormatContext formattingWriteStream(OutputStream os, InputStream xml) throws IOException, DocumentException {
+        return formattingWriteStream(os,xml,new FormatOption());
+    }
+
+    /**
+     * 格式化至文件
+     *
+     * @param path 输出文件的路径
+     * @param xml  xml源文件的输入流
+     * @return 格式化的上下文
+     * @throws IOException IOException
+     * @throws DocumentException DocumentException
+     */
+    @Override
+    public FormatContext formattingWriteFile(String path, InputStream xml) throws IOException, DocumentException {
+        return formattingWriteFile(path,xml,new FormatOption());
+    }
+
+    /**
+     * 格式化至文件
+     * @param path 输出文件的路径
+     * @param xml xml源文件的输入流
+     * @param formatOption 格式化选项
+     * @return 格式化的上下文
+     * @throws IOException IOException
+     * @throws DocumentException DocumentException
+     */
     @Override
     public FormatContext formattingWriteFile(String path, InputStream xml, FormatOption formatOption) throws IOException, DocumentException {
 

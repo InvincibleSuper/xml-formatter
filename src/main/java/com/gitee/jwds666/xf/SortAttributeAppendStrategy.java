@@ -8,10 +8,21 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * 排序的参数追加策略
+ * 根据字典序将参数追加
+ */
 public class SortAttributeAppendStrategy implements AttributeAppendStrategy{
 
 
-    
+    /**
+     * 追加
+     * @param context 格式化上下文
+     * @param myAttrMaxValueMap 当前的参数最大长度表
+     * @param attributeList 参数列表
+     * @param namespaceList 命名空间列表
+     * @throws IOException
+     */
     @Override
     public void append(FormatContext context, Map<String, Integer> myAttrMaxValueMap, List<Attribute> attributeList, List<Namespace> namespaceList) throws IOException {
         if (myAttrMaxValueMap == null)return;

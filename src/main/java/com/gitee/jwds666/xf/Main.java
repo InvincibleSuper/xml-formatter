@@ -3,6 +3,9 @@ package com.gitee.jwds666.xf;
 
 import java.io.*;
 
+/**
+ * 主入口，接收参数以选择如何格式化
+ */
 public class Main {
 
 
